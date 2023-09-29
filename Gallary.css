@@ -1,0 +1,195 @@
+/* header */
+.logo{
+    border:2px solid black;
+    width: 10%;
+    height: 100px;
+
+}
+.logo_1{
+    margin-left: 0px;
+    border: 2px solid black;
+    width: 120px;
+    height:99px ;
+    margin-top: 0px;
+}
+
+/* college name */
+.clname{
+    width:80%;
+    margin-top: -113px;
+    margin-left: 128px;
+    padding: 10px;
+    size-adjust: 3px;
+}
+.cl_name{
+    margin-top: -2px;
+    
+}
+.naac{
+    margin-top: -20px;
+    font-size: medium;
+    
+}
+header{
+    background-color: blanchedalmond;
+}
+
+
+/* Add styles for the gallery */
+.gallery {
+    padding: 20px;
+    
+}
+
+.media {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.media-item {
+    display:flex;
+    width:50%;
+    margin-bottom: 20px;
+}
+
+.media-item img {
+    border:3px solid black;
+    max-width: 60%;
+    display: flex;
+    height: 300px; 
+    display: block;
+    margin-left: 40px;/
+}
+
+.media-item iframe {
+    width: 100%;
+    margin-top: 90px;
+}
+.vd-con{
+    width:100%;
+    /* border:  3px solid black; */
+    align-content: center;
+}
+.media-item-v{
+    /* border: 3px solid black; */
+    margin-bottom: 30px;
+    margin-left: 250px;
+    /* /* display: flex; * */
+}
+
+
+/* nav */
+/* navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    margin-top: -15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+
+
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    /* background-color: #ff9900; */
+    background-color: #542d2d;
+}
+
+/* Display the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    margin: 0;
+} 
+
+.footer-sect {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-sect a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+
+
+

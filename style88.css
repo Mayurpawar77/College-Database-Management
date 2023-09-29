@@ -1,0 +1,123 @@
+
+
+   /* Reset some default styles */
+    body, ul {
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        color:black;
+        margin-top: 120px;
+    }
+    .imgmain{
+        position: relative;
+        /* margin-left: 0; */
+        /* margin-top: 0; */
+    }
+    #imgg1{
+        position: absolute;
+        width: 100%;
+    }
+    /* Style the header */
+    header {
+        margin-top: -19px;
+        margin: 3px;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    /* Style the navigation bar */
+    nav {
+        background-color: #333;
+        color: #fff;
+        margin-top: 222px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s;
+    }
+    
+    nav a:hover {
+        color: #ff9900; /* Change the color on hover */
+    }
+
+
+
+
+    /* Style main content sections */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Styling for student, course, and faculty entries */
+.student, .course, .faculty {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.student h3, .course h3, .faculty h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.student p, .course p, .faculty p {
+    margin: 5px 0;
+}
+/* ... Previous styles ... */
+
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    /* background-color: #ff9900; */
+    background-color: #542d2d;
+}
+
+/* Display the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+

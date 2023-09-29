@@ -1,0 +1,278 @@
+/* Add styles for the faculty section */
+.faculty-section {
+    padding: 20px;
+}
+
+.faculty-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faculty-member img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.faculty-member h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.faculty-member p {
+    text-align:center;
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
+
+/* footer */
+/* Add styles for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.social-icons a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: sticky;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+
+/* header */
+
+.logo{
+    border:2px solid black;
+    width: 10%;
+    height: 100px;
+
+}
+.logo_1{
+    margin-left: 0px;
+    /* border: 2px solid black; */
+    width: 120px;
+    height:99px ;
+    margin-top: 0px;
+}
+h1{
+    color: #8114b8;
+}
+/* college name */
+.clname{
+    /* display:inline-block; */
+    width:80%;
+    margin-top: -113px;
+    margin-left: 128px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    size-adjust: 3px;
+    color: #333;
+}
+.cl_name{
+    /* border:2px solid black; */
+    margin-top: -2px;
+    
+}
+.naac{
+    margin-top: -20px;
+    font-size: medium;
+    
+}
+header{
+    background-color: blanchedalmond;
+}
+
+
+
+/* navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    margin-top: -15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+
+
+/* Styling for student, course, and faculty entries */
+.student, .course, .faculty {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.student h3, .course h3, .faculty h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.student p, .course p, .faculty p {
+    margin: 5px 0;
+}
+/* ... Previous styles ... */
+
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    /* background-color: #ff9900; */
+    background-color: #542d2d;
+}
+
+/* Display the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Style main content sections */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Styling for student, course, and faculty entries */
+.student, .course, .faculty {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.student h3, .course h3, .faculty h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.student p, .course p, .faculty p {
+    margin: 5px 0;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    margin: 0;
+} 
+
+.footer-sect {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-sect a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
